@@ -13,8 +13,8 @@ class CreateSiswasTable extends Migration
      */
     public function up()
     {
-        Schema::create('siswas', function (Blueprint $table) {
-            $table->increments('id');
+        Schema::create('tb_siswa', function (Blueprint $table) {
+            $table->increments('id_siswa');
             $table->string('nama');
             $table->string('alamat');
             $table->timestamps();
